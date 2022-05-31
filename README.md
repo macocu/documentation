@@ -11,7 +11,7 @@ Crawled documents were then processed using two pipelines: [Monotextor](https://
 The main purpose of Bitextor is to preprocess, identify and align parallel content within a collection of multilingual documents. However, it also includes several curation components aimed at improving the quality of the final corpora. These components are:
 - [Bifixer](https://github.com/bitextor/bifixer): Tool to fix typos and minor errors in a parallel corpus, and tag near-duplicates for removal.
 - [Bicleaner AI](https://github.com/bitextor/bicleaner-ai): Tool that aims at detecting noisy sentence pairs in a parallel corpus. The models used for the first data release in MaCoCu are available at: https://github.com/bitextor/bicleaner-ai-data/releases/tag/v1.0)
-- [BuROAMer](https://github.com/bitextor/biroamer): Utility that will help you to ROAM (Random, Omit, Anonymize and Mix) your corpus and detect entities in text.
+- [BiROAMer](https://github.com/bitextor/biroamer): Utility that will help you to ROAM (Random, Omit, Anonymize and Mix) your corpus and detect entities in text.
 
 Apart from these components integrated in the pipeline, two independent tools were also applied on the clean corpora to enrich them with metadata. These two components are:
 - a minimalistic [American/British English variant classifier](https://github.com/macocu/American-British-variety-classifier) based on spelling- and vocabulary, and
