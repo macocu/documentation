@@ -14,6 +14,7 @@ The main purpose of Bitextor is to preprocess, identify and align parallel conte
 - [BiROAMer](https://github.com/bitextor/biroamer): Utility that will help you to ROAM (Random, Omit, Anonymize and Mix) your corpus and detect entities in text.
 
 Apart from these components integrated in the pipeline, two independent tools were also applied on the clean corpora to enrich them with metadata. These two components are:
+- a classification tool for discriminating between [Bosnian, Croatian, Montenegrin, and Serbian](https://github.com/macocu/BCMS-variant-classifier).
 - a minimalistic [American/British English variant classifier](https://github.com/macocu/American-British-variety-classifier) based on spelling- and vocabulary, and
 - a [translationese detector](https://github.com/RikVN/TranslationDirection) to determine translation direction of parallel sentences, this is, to identify which sentence is the original and which is the translation.
 
